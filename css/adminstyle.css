@@ -1,0 +1,185 @@
+.col-sm-8 {
+    min-height: 270px;
+    border-radius: 10px;
+}
+
+.line{
+    margin-top: -20px;
+}
+
+.FieldInfo {
+    color: rgb(151, 174, 44);
+    font-family: Bitter, Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2em;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #286090;
+}
+
+.menu-text {
+    font-size: 100%;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.shadow {
+    text-shadow: 0 0 5px #000, 0 0 5px #0000ff;
+}
+
+#stats {
+    text-align: center;
+}
+
+.active {
+    background-color: #558ab7;
+}
+
+.padding {
+    padding-top: 10px;
+}
+
+.vresize {
+  resize: vertical;
+}
+
+#widthmobile {
+    float:center;
+    text-align: left;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.menu {
+    width:30%;
+    text-align:center;
+    float:left;
+    margin-left: 50px;
+}
+
+.menu img {
+    margin-top: 70px;
+}
+
+@media only screen and (max-width: 1122px) {
+    .menu-text {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .menu-text {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 954px) {
+    .menu-text {
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .menu-text {
+        font-size: 60%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #logout {
+        text-align: center;
+    }
+
+    .menu-text {
+        font-size: 100%;
+    }
+
+    #widthmobile {
+        width: 100%;
+    }
+
+    .menu {
+        width:100%;
+        text-align:center;
+        float:none;
+        margin-left: 0px;
+    }
+
+    .menu img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 465px) {
+    .text-total {
+        font-size: 20px;
+    }
+
+    .text-total-l {
+        font-size: 20px;
+    }
+
+    .qua {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    .img-glyph {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .text-total {
+        font-size: 100%;
+    }
+
+    .text-total {
+        font-size: 100%;
+    }
+
+    .qua {
+        font-size: 180%;
+        margin-left: 15px;
+    }
+    .img-glyph {
+        font-size: 180%;
+    }
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 180px;
+  width: 100%;
+  overflow: scroll;
+}
+
+#myUL li a {
+  border-bottom: 1px solid #ddd;
+  background-color: #f6f6f6;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  display: block;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+#cdelete{
+  margin-left: 40px;
+}
+
+#cdelete tr td {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
