@@ -1,4 +1,4 @@
-# Project Title
+# Video Rental Management Simulator
 
 Video Rental Management Simulator is a UI that have a help us to manage our library/DVD rental.
 
