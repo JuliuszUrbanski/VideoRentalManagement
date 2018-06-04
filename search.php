@@ -1,8 +1,8 @@
 <?php
 $dbHost = 'localhost';
-$dbUsername = 'root';
-$dbPassword = '';
-$dbName = 'library';
+$dbUsername = 'user';
+$dbPassword = 'password';
+$dbName = 'database';
 //connect with the database
 $db = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
 //get search term
