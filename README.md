@@ -2,9 +2,9 @@
 
 Video Rental Management Simulator is a UI that have a help us to manage our library/DVD rental.
 
-## Changelog
+# Changelog
 
-### 0.1 - 2018-06-04
+## 0.1 - 2018-06-04
 
 * Add users/Edit users
 * Add new films
